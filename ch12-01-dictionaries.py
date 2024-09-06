@@ -24,7 +24,7 @@ us_states["AK"] = "Alaska"
 print(f"us_states: {us_states}")
 
 print("using the get method to retrieve a value: ")
-print(f"CO: {us_states.get("CO")}")
+# print(f"CO: {us_states.get("CO")}")
 
 print("Delete an entry from the dictionary")
 state_delete = us_states.pop("CO")
