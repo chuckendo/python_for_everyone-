@@ -1,0 +1,17 @@
+meal_cost = float(input("Cost of meal: "))
+tip_15 = round(meal_cost * (15 / 100), 2)
+tip_20 = round(meal_cost * (20 / 100), 2)
+tip_25 = round(meal_cost * (25 / 100), 2)
+
+total_15 = round(meal_cost + tip_15, 2)
+total_20 = round(meal_cost + tip_20, 2)
+total_25 = round(meal_cost + tip_25, 2)
+
+print("Tip Calculator\n")
+print(f" Cost of meal {meal_cost}\n")
+print(f" 15%\n Tip amount: {tip_15}\n Total amount: {total_15}")
+print("\n")
+print(f" 20%\n Tip amount: {tip_20}\n Total amount: {total_20}")
+print("\n")
+print(f" 25%\n Tip amount: {tip_25}\n Total amount: {total_25}")
+print("\n")
